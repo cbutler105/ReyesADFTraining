@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "scb_reyestraining_pipeline",
 	"properties": {
 		"activities": [
 			{
