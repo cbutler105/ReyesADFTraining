@@ -141,10 +141,6 @@
 						"type": "DataFlowReference"
 					},
 					"staging": {
-						"linkedService": {
-							"referenceName": "ADLS",
-							"type": "LinkedServiceReference"
-						},
 						"folderPath": "training"
 					},
 					"compute": {
