@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "scbutler1-datafactory"
+		},
+		"ADLS_accountKey": {
+			"value": ""
+		},
+		"AzureSQLDB_connectionString": {
+			"value": ""
+		},
+		"reyesazuresynapse_connectionString": {
+			"value": ""
+		},
+		"ADLS_properties_typeProperties_url": {
+			"value": "https://reyestrainingdatalake.dfs.core.windows.net"
+		},
+		"MoviesGitHub_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/djpmsft/adf-ready-demo/master/moviesDB.csv"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
