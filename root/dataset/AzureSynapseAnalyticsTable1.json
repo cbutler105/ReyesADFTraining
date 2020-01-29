@@ -7,7 +7,34 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlDWTable",
-		"schema": [],
+		"schema": [
+			{
+				"name": "PrimaryGenres",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Year",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AverageRating",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "HighestRated",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LowestRated",
+				"type": "nvarchar"
+			},
+			{
+				"name": "NumberOfMovies",
+				"type": "bigint",
+				"precision": 19
+			}
+		],
 		"typeProperties": {
 			"schema": "dbo",
 			"table": "SCB_MovieAnalytics"
